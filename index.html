@@ -3,51 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>My Game Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ===== Hero Section ===== -->
-    <header class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover My Work and Projects</p>
-        <a href="#projects" class="btn">View Projects</a>
+    <!-- ===== Header and Navigation ===== -->
+    <header class="header">
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo">
+            <h1>My Game Studio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Games</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Game Acquisitions</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- ===== Portfolio Section ===== -->
-    <section id="projects" class="portfolio">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="assets/images/project1.jpg" alt="Project 1">
-                <h3>Project Title 1</h3>
-                <p>A brief description of the project.</p>
-            </div>
-            <div class="project-card">
-                <img src="assets/images/project2.jpg" alt="Project 2">
-                <h3>Project Title 2</h3>
-                <p>A brief description of the project.</p>
-            </div>
-            <div class="project-card">
-                <img src="assets/images/project3.jpg" alt="Project 3">
-                <h3>Project Title 3</h3>
-                <p>A brief description of the project.</p>
+    <!-- ===== Game Grid Section ===== -->
+    <section class="game-grid">
+        <h2>Our Games</h2>
+        <div class="grid-container">
+            <!-- 20 game slots -->
+            <!-- Repeat this block 20 times -->
+            <div class="game-card">
+                <img src="https://via.placeholder.com/150" alt="Game Image">
+                <h3>Game Title</h3>
+                <p>Plays: 999</p>
+                <p>Active: 999</p>
             </div>
         </div>
-    </section>
-
-    <!-- ===== About Section ===== -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm [Your Name], a passionate developer with a love for creating amazing projects.</p>
-    </section>
-
-    <!-- ===== Contact Section ===== -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <p>Email: you@example.com</p>
-        <p>LinkedIn: [Your LinkedIn Profile]</p>
     </section>
 
 </body>
